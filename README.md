@@ -52,5 +52,5 @@ This script computes the total sales amount (including discount) for each produc
 
 
 
-### Summary and Conclusion 
+## Summary and Conclusion 
 In this article, we explored five SQL scripts designed for data retrieval tasks commonly encountered in database management. These queries showcase the versatility of SQL in extracting meaningful insights from complex datasets. Whether you are dealing with product categories, customer contacts, or sales statistics, SQL provides a powerful and efficient means of managing and analyzing your data. By understanding and adapting these scripts to your specific database schema, you can enhance your ability to extract valuable information for decision-making and analysis.
