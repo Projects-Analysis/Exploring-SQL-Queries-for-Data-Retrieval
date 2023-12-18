@@ -24,7 +24,7 @@ Here, we extract the ContactName, CompanyName, ContactTitle, and Phone columns f
 
 ## 3. Unique Customer Information Across Tables
 ### Question: Write a script to output a unique list of customers across customers and suppliers tables. Display Companyname, Contactname, and City. Sort your outcome by Companyname Desc.
-![sql 3](https://github.com/Projects-Analysis/Exploring-SQL-Queries-for-Data-Retrieval/assets/149543175/2f2c200a-fba0-4067-ac6d-34bc0d1ca919)
+![sql 33](https://github.com/Projects-Analysis/Exploring-SQL-Queries-for-Data-Retrieval/assets/149543175/dfb485d9-e5ca-418c-9b5f-d514182664b6)
 #### Comment: 
 This script combines and displays a unique list of customers from both the customers and suppliers tables. It retrieves columns such as CompanyName, ContactName, and City, and orders the result set in descending order based on CompanyName. This query is useful for creating a consolidated list of contacts regardless of whether they are customers or suppliers.
 
