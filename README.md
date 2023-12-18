@@ -5,6 +5,7 @@ In the world of relational databases, SQL (Structured Query Language) is a power
 
 ## 1. Displaying Category Information
 ### Question:Write a script to display CategoryName and Description from the categories table, sorted by CategoryName.
+![sql 1](https://github.com/Projects-Analysis/Exploring-SQL-Queries-for-Data-Retrieval/assets/149543175/35d7458e-a72c-4cfe-808e-fec79a06f5eb)
 
 
 #### Comment:
@@ -13,6 +14,7 @@ This script retrieves and displays the CategoryName and Description columns from
 
 ## 2. Displaying Customer Contact Information
 ### Question: Write a script to display ContactName, CompanyName, ContactTitle, and Phone number from the customers table, sorted by Phone.
+![sql 2](https://github.com/Projects-Analysis/Exploring-SQL-Queries-for-Data-Retrieval/assets/149543175/03944405-7ee6-42b1-b840-54b9bc5c3c51)
 
 
 #### Comment: 
@@ -20,15 +22,17 @@ Here, we extract the ContactName, CompanyName, ContactTitle, and Phone columns f
 
 
 ## 3. Unique Customer Information Across Tables
-### Question: Write a script to output a unique list of customers across customers and suppliers tables. Display Customername, Contactname, and City. Sort your outcome by Customername Desc.
+### Question: Write a script to output a unique list of customers across customers and suppliers tables. Display Companyname, Contactname, and City. Sort your outcome by Companyname Desc.
+![sql 3](https://github.com/Projects-Analysis/Exploring-SQL-Queries-for-Data-Retrieval/assets/149543175/2f2c200a-fba0-4067-ac6d-34bc0d1ca919)
 
 
 #### Comment: 
-This script combines and displays a unique list of customers from both the customers and suppliers tables. It retrieves columns such as CustomerName, ContactName, and City, and orders the result set in descending order based on CustomerName. This query is useful for creating a consolidated list of contacts regardless of whether they are customers or suppliers.
+This script combines and displays a unique list of customers from both the customers and suppliers tables. It retrieves columns such as CompanyName, ContactName, and City, and orders the result set in descending order based on CompanyName. This query is useful for creating a consolidated list of contacts regardless of whether they are customers or suppliers.
 
 
 ## 4. Freight Statistics by Ship Country
-### Question: Write a script to output Total, Average, Min, and Max Freight by ShipCountry, ordered by Maximum freight descending.
+### Question: Write a script to output Total, Average, Min, and Max Freight by ShipCountry, ordered by Maximum freight in descending order.
+![sql 4](https://github.com/Projects-Analysis/Exploring-SQL-Queries-for-Data-Retrieval/assets/149543175/18115b2f-cc64-4597-9bbe-18143cc6e20f)
 
 
 #### Comment: 
@@ -37,6 +41,8 @@ In this script, we calculate total, average, minimum, and maximum freight values
 
 ## 5. Total Sales Amount per Product
 ### Question: For each product, display the Total sales amount (including discount), ordered by the highest sales amount.
+![sql 5](https://github.com/Projects-Analysis/Exploring-SQL-Queries-for-Data-Retrieval/assets/149543175/0dac9bba-744e-4498-b27c-9e0b2521a289)
+![sql 5a](https://github.com/Projects-Analysis/Exploring-SQL-Queries-for-Data-Retrieval/assets/149543175/05e5482d-9cac-413b-ae1b-2b22180086f4)
 
 
 #### Comment: 
